@@ -1,0 +1,240 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  background: #fff;
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+.pages{
+  
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.del{
+  display: block;
+}
+
+.wrapper{
+  width: 35%;
+  margin: 0 auto
+}
+
+.heads{
+  text-align: center;
+  color:#1aac83;
+
+}
+.operations{
+  margin-top: 35px;
+}
+.actions{
+  display:flex;
+  justify-content: space-between;
+  background-color: #333;
+}
+.actions h5{
+  margin:3px;
+  text-decoration: none;
+  color: #ddd;
+
+}
+
+/* homepage */
+.home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+}
+.project-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.project-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.project-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.project-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+.project-list-table-title {
+  padding-left: 40px;
+  margin: 16px 0px;
+  font-size: 22px;
+}
+.project-list-table  li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+  }
+.project-list-table  .table-header {
+    background-color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ddd;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 0;
+  }
+.project-list-table .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+  }
+.project-list-table  .col-1 {
+    flex-basis: 10%;
+  }
+.project-list-table .col-2 {
+    flex-basis: 15%;
+    
+  }
+.project-list-table .col-3 {
+    flex-basis: 25%;
+  }
+.project-list-table .col-4 {
+    flex-basis: 10%;
+  }  
+.project-list-table .col-5 {
+    flex-basis: 10%;
+  }  
+.project-list-table .col-6 {
+    flex-basis: 10%;
+  }  
+.project-list-table .col-7 {
+    flex-basis: 10%;
+  }  
+.project_title{
+  color: #2f31b5;
+  font-weight: bold;
+}
+/*  form */
+label, input {
+  display: block;
+}
+input, select {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+div.success {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+textarea{
+  width: 100%;
+  height:180px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+input.error{
+  border:1px solid var(--error);
+}
+
+.Operations-btn{
+  width:40%;
+  margin:5px;
+  padding: 5px;
+  color: #ddd;
+  font-size: 0.8rem;
+  font-weight:800;
+  border-radius: 5%;
+  background: #1aac83;
+  cursor: pointer;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  margin-left: 10px;
+}
+nav button {
+  background: #fff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+}
+
+/* auth forms */
+form.signup, form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
